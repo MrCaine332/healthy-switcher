@@ -45,8 +45,8 @@ export const Navbar = () => {
 			</nav>
 			<nav className={styles.navbarMobile}>
 				<button className={styles.navbarMobileToggler}
-				        onClick={() => setIsNavbarMobileToggled(true)}>
-
+				        onClick={() => setIsNavbarMobileToggled(prev => !prev)}>
+					<div />
 				</button>
 				{ isNavbarMobileToggled
 					? <div ref={navbarMobileWrapRef} className={styles.navbarMobileListWrap}>
