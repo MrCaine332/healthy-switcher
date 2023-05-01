@@ -1,0 +1,19 @@
+.rating {
+  margin-top: -4px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  svg {
+    fill: #4D4D4D;
+    transition: 0.15s;
+  }
+
+  .votes {
+    font-weight: 900;
+    color: var(--color-text-secondary);
+    margin-left: 5px;
+    margin-top: 3px;
+    font-size: 14px;
+  }
+}

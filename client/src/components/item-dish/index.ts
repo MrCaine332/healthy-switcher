@@ -1,0 +1,1 @@
+export { ItemDish } from './ItemDish'

@@ -1,0 +1,51 @@
+.sectionTitle {
+
+  .titles {
+
+    position: relative;
+    display: grid;
+    place-items: center;
+
+    .firstTitle {
+      color: var(--neutral-3);
+      font-weight: 900;
+      font-size: 100px;
+      line-height: 150px;
+    }
+
+    .secondTitle {
+      width: fit-content;
+      position: absolute;
+      color: var(--color-text-primary);
+      letter-spacing: 0.15em;
+      font-weight: 300;
+      white-space: nowrap;
+    }
+  }
+
+  .titleUnderline {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .sectionTitle .titles {
+
+    .firstTitle {
+      font-size: 82px;
+    }
+
+    .secondTitle {
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .sectionTitle .titles {
+
+    .secondTitle {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.recipesList {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.recipesGroup {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 540px 540px;
+  grid-template-areas:
+          "A B"
+          "A C"
+          "A D";
+
+  &_Reversed {
+    grid-template-areas:
+          "B A"
+          "C A"
+          "D A";
+  }
+}
+
+.recipeBigArea {
+  grid-area: A;
+}
+
+
+.divider {
+  margin: 30px auto;
+}
+
+@media (max-width: 1124px) {
+  .recipesGroup {
+    grid-template-columns: none;
+    grid-template-areas: "A" "B" "C" "D";
+
+    &_Reversed {
+      grid-template-areas: none;
+    }
+  }
+}

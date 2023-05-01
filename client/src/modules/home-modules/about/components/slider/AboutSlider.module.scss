@@ -1,0 +1,38 @@
+.aboutSlider {
+  display: flex;
+  align-items: center;
+
+  .slider {
+    width: 734px;
+
+    .slide {
+      max-height: 260px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        aspect-ratio: 350/260;
+      }
+    }
+
+    @media (max-width: 1124px) {
+      width: 520px;
+    }
+    @media (max-width: 724px) {
+      width: calc(100% + 64px);
+      margin-left: -32px;
+      margin-right: -32px;
+    }
+  }
+  
+  .sliderButton {
+    svg {
+      fill: var(--color-text-tertiary);
+    }
+
+    @media (max-width: 724px) {
+      display: none;
+    }
+  }
+}

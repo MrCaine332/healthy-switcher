@@ -1,0 +1,38 @@
+.recipeFilter {
+  padding: 20px;
+  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr 256px 256px;
+  grid-template-areas:'title badge time';
+}
+
+.titleInput {
+  grid-area: title;
+}
+
+.badgeInput {
+  grid-area: badge;
+}
+
+.time {
+  grid-area: time;
+}
+
+@media screen and (max-width: 1124px) {
+  .recipeFilter {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+          'title title'
+          'badge time';
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .recipeFilter {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+          'title'
+          'badge'
+          'time';
+  }
+}

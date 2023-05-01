@@ -1,0 +1,47 @@
+@import "variables";
+@import "typography";
+
+:root {
+  @extend %colors;
+  @extend %variables;
+}
+
+html,
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--color-background-primary);
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container {
+  position: relative;
+  z-index: var(--z-index-middle-layer);
+  width: 1110px;
+  margin: auto;
+
+  @media (max-width: 1124px) {
+    width: 800px;
+  }
+
+  @media (max-width: 824px) {
+    width: 100%;
+    padding: 0 12px;
+  }
+}
+
+.page {
+  padding-top: 170px;
+  min-height: 80vh;
+
+  @media (max-width: 474px) {
+    padding-top: 150px;
+  }
+}

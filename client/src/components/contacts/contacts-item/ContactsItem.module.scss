@@ -1,0 +1,22 @@
+.contactsItem {
+  width: 256px;
+  display: flex;
+  flex-direction: column;
+
+  .contactIcon {
+    margin-bottom: 8px;
+
+    svg {
+      fill: var(--color-text-primary);
+      opacity: 0.5;
+    }
+  }
+
+  .contactBody {
+    color: var(--color-text-primary);
+  }
+
+  .contactCaption {
+    color: var(--color-text-secondary);
+  }
+}

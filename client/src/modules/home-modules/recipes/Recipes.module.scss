@@ -1,0 +1,26 @@
+.homeRecipes {
+  margin-top: 90px;
+
+  .homeRecipesList {
+    margin-top: 60px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+
+    .homeRecipeAlternative {
+      background-color: var(--primary);
+      color: var(--color-background-secondary);
+
+      * {
+        fill: var(--color-background-secondary);
+      }
+    }
+  }
+}
+
+@media (max-width: 1124px) {
+  .homeRecipes .homeRecipesList {
+    grid-template-columns: none;
+  }
+}

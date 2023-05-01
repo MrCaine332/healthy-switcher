@@ -1,0 +1,91 @@
+@mixin textOpenSans($font-weight, $font-size, $line-height) {
+  font-family: 'OpenSans', sans-serif;
+  font-style: normal;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+.textHero {
+  @include textOpenSans(400, 72px, 80px);
+  letter-spacing: 0.1em;
+  font-stretch: normal;
+}
+
+.textHeroBold {
+  @include textOpenSans(700, 72px, 80px);
+  letter-spacing: 0.05em;
+  font-stretch: normal;
+}
+
+h1 {
+  @include textOpenSans(800, 100px, 64px);
+  font-stretch: condensed;
+  letter-spacing: 0.2em;
+}
+
+h2 {
+  @include textOpenSans(400, 32px, 60px)
+}
+
+h3 {
+  @include textOpenSans(400, 30px, 30px)
+}
+
+h4 {
+  @include textOpenSans(400, 22px, 26px)
+}
+
+//h5 {
+//  @include textHelveticaNeue(400, 18px, 22px)
+//}
+
+.textBodyLarge {
+  @include textOpenSans(400, 16px, 30px)
+}
+
+.textBodySmall {
+  @include textOpenSans(400, 13px, 18px)
+}
+
+.textCaptionLarge {
+  @include textOpenSans(400, 14px, 24px)
+}
+
+.textCaptionSmall {
+  @include textOpenSans(400, 12px, 16px)
+}
+
+.textButton {
+  @include textOpenSans(700, 12px, 20px);
+  font-stretch: condensed;
+  letter-spacing: 0.2em;
+}
+
+.textNavItem {
+  @include textOpenSans(700, 14px, 20px);
+  font-stretch: condensed;
+}
+
+
+
+@media (max-width: 824px) {
+  .textHero, .textHeroBold {
+    font-size: 52px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 600px) {
+  .textHero, .textHeroBold {
+    font-size: calc(var(--index) * 5);
+    line-height: calc(var(--index) * 5);
+  }
+}
+
+@media (max-width: 474px) {
+  .textHero, .textHeroBold {
+    font-size: calc(var(--index) * 3);
+    line-height: calc(var(--index) * 3);
+  }
+}

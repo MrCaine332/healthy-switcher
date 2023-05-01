@@ -1,0 +1,16 @@
+.buttonRound {
+  width: 60px;
+  height: 60px;
+
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid var(--color-accent-light);
+
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+
+  &:hover {
+    background-color: var(--neutral-3);
+  }
+}

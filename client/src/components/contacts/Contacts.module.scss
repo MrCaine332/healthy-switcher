@@ -1,0 +1,13 @@
+.contacts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  
+  @media (max-width: 474px) {
+    flex-direction: column;
+    gap: 30px;
+  }
+}

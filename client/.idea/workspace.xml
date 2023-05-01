@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdd95685-376a-412f-9fce-de18625ea7c2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/app/hooks/useDebounce.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/http/api-calls.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/types/category.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/types/dish.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/types/dtos.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/types/recipe.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/types/step.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/utils/utils.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-BoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-CondBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-CondExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-CondLight.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-CondLightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-ExtraBoldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-Italic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-LightItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/fonts/OpenSans-SemiboldItalic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/item-work/ItemWork.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/list-dishes/ListDishes.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/list-dishes/ListDishes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/list-dishes/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/modal-order/ModalOrder.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/modal-order/ModalOrder.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/modals/modal-order/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/amount-counter/AmountCounter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/amount-counter/AmountCounter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/amount-counter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/button/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/card/Card.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/card/Card.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/card/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input/Input.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input/Input.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input/Input.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/input/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/modal/Modal.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/modal/Modal.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/modal/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/pagination/Pagination.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/pagination/Pagination.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/pagination/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/range/Range.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/range/Range.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/range/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/rating/Rating.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/rating/Rating.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/rating/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/select/Select.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/select/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ui/select/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/menu-modules/menu-filter/MenuFilter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/menu-modules/menu-filter/MenuFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/menu-modules/menu-filter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/recipes-modules/recipe-filter/RecipeFilter.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/recipes-modules/recipe-filter/RecipeFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/recipes-modules/recipe-filter/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/menu/Menu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/menu/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/recipe/Recipe.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/recipe/Recipe.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/recipe/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/recipes/Recipes.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/recipes/Recipes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/healthy-switcher.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/http/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/http/api.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBlackCondensed.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBlackCondensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBlackCondensed.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBlackCondensed.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBoldCondensed.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBoldCondensed.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBoldCondensed.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueBoldCondensed.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BlackItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Heavy.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Heavy.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Heavy.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Heavy.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-HeavyItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-HeavyItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-HeavyItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-HeavyItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Light.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-LightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-LightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Roman.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Roman.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Roman.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Roman.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Thin.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-ThinItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-ThinItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLight.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLightItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeueCyr-UltraLightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/fonts/fonts.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/fonts/fonts.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chef-card/ChefCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-chef/ChefCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chef-card/ChefCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-chef/ChefCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/chef-card/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-chef/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contacts/contacts-item/ContactsItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contacts/contacts-item/ContactsItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dish-card/DishCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-dish/ItemDish.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dish-card/DishCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-dish/ItemDish.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/dish-card/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-dish/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipe/Recipe.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-recipe/Recipe.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipe/RecipeBig.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-recipe/RecipeBig.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipe/RecipeSmall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-recipe/RecipeSmall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/recipe/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-recipe/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-title/SectionTitle.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-title/SectionTitle.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/section-title/SectionTitle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/section-title/SectionTitle.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/social-card/SocialCard.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-social/SocialCard.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/social-card/SocialCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-social/SocialCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/social-card/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-social/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/app-button/AppButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/app-button/AppButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/app-button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/badge/Badge.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/badge/Badge.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/circle-button/CircleButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button-round/ButtonRound.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/circle-button/CircleButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button-round/ButtonRound.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/circle-button/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button-round/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/icons/Icons.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/icons/Icons.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/separation-line/SeparationLine.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/divider/Divider.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/separation-line/SeparationLine.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/divider/Divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/separation-line/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/divider/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work-card/WorkCard.module.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work-card/WorkCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-work/ItemWork.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/work-card/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/item-work/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/background-image/BackgroundImage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/background-image/BackgroundImage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/background-image/BackgroundImage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/background-image/BackgroundImage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/about/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/about/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/about/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/about/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/about/components/slider/AboutSlider.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/about/components/slider/AboutSlider.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/about/components/slider/AboutSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/about/components/slider/AboutSlider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/chefs/Chefs.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/chefs/Chefs.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/chefs/Chefs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/chefs/Chefs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/dishes/Dishes.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/dishes/Dishes.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/dishes/Dishes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/dishes/Dishes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/hero/Hero.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/hero/Hero.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/hero/Hero.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/hero/Hero.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/recipes/Recipes.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/recipes/Recipes.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/recipes/Recipes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/recipes/Recipes.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/social/Social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/social/Social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/social/Social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/social/Social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/work/Work.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/work/Work.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/home-modules/work/Work.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/home-modules/work/Work.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/parts/rules.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/parts/rules.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack/webpack.common.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NPjFIgA27TZUwNosa4Eh9pZQ6Z" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Web/Pet Projects/healthy-switcher",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editing.templates",
+    "ts.external.directory.path": "C:\\Web\\Pet Projects\\healthy-switcher\\client\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Web\Pet Projects\healthy-switcher\client\src\modules\recipes-modules" />
+      <recent name="C:\Web\Pet Projects\healthy-switcher\client\src\app\hooks" />
+      <recent name="C:\Web\Pet Projects\healthy-switcher\client\src\components\ui" />
+      <recent name="C:\Web\Pet Projects\healthy-switcher\client\src\assets\fonts" />
+      <recent name="C:\Web\Pet Projects\healthy-switcher\src\components\ui" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Web\Pet Projects\healthy-switcher\src\components" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.storybook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdd95685-376a-412f-9fce-de18625ea7c2" name="Changes" comment="" />
+      <created>1679572505439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679572505439</updated>
+      <workItem from="1679572506473" duration="18000" />
+      <workItem from="1679572571571" duration="6303000" />
+      <workItem from="1679582554823" duration="268000" />
+      <workItem from="1679661511526" duration="9484000" />
+      <workItem from="1679675336091" duration="2184000" />
+      <workItem from="1679677615024" duration="16000" />
+      <workItem from="1679999299715" duration="10930000" />
+      <workItem from="1680018230992" duration="1276000" />
+      <workItem from="1680092112991" duration="8620000" />
+      <workItem from="1680175592055" duration="4581000" />
+      <workItem from="1680257335407" duration="2191000" />
+      <workItem from="1680262864048" duration="18000" />
+      <workItem from="1680525331293" duration="50000" />
+      <workItem from="1680525487422" duration="28000" />
+      <workItem from="1680692683162" duration="86000" />
+      <workItem from="1680782690259" duration="2575000" />
+      <workItem from="1680863853614" duration="10834000" />
+      <workItem from="1681217691874" duration="4594000" />
+      <workItem from="1681300537178" duration="4002000" />
+      <workItem from="1681470496861" duration="7442000" />
+      <workItem from="1681643603615" duration="8379000" />
+      <workItem from="1681729042792" duration="9049000" />
+      <workItem from="1682172140629" duration="717000" />
+      <workItem from="1682243784048" duration="4922000" />
+      <workItem from="1682423471793" duration="3823000" />
+      <workItem from="1682503781542" duration="40000" />
+      <workItem from="1682508530439" duration="2123000" />
+      <workItem from="1682589327320" duration="1968000" />
+      <workItem from="1682933393877" duration="1221000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

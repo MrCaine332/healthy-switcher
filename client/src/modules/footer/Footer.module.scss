@@ -1,0 +1,28 @@
+.footer {
+  position: relative;
+  margin-top: 120px;
+  background-color: var(--color-background-secondary);
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  z-index: var(--z-index-upper-layer);
+
+  .separator {
+    border: none;
+    background-color: #303030;
+    height: 2px;
+  }
+
+  .footerBottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+
+    .copyright {
+      color: var(--color-text-tertiary);
+    }
+  }
+}

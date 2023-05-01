@@ -1,0 +1,23 @@
+.amountCounter {
+  button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+  }
+
+  height: 40px;
+  width: fit-content;
+  padding: 0 4px;
+
+  display: flex;
+  align-items: center;
+  gap: 16px;
+
+  border: 2px solid var(--color-accent);
+  border-radius: 50px;
+  color: var(--color-text-secondary);
+  svg {
+    fill: var(--color-text-secondary);
+  }
+}

@@ -1,0 +1,13 @@
+.home {
+  padding-top: 260px;
+
+  @media (max-width: 824px) {
+    padding-top: 220px;
+  }
+  @media (max-width: 600px) {
+    padding-top: 170px;
+  }
+  @media (max-width: 474px) {
+    padding-top: 150px;
+  }
+}

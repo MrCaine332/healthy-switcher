@@ -1,0 +1,11 @@
+.chefs {
+  margin-top: 90px;
+
+  .chefsList {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 30px;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,49 @@
+.button {
+  padding: 10px 32px;
+  border: none;
+  border-radius: 100px;
+
+  background-color: transparent;
+  transition: 0.15s;
+
+  cursor: pointer;
+  overflow: hidden;
+
+
+  &_outlined {
+    background-color: transparent;
+    border: 2px solid var(--color-accent-light);
+    color: var(--color-text-secondary);
+
+    &:hover {
+      background-color: var(--primary);
+      border-color: var(--primary);
+      color: var(--neutral-2);
+    }
+  }
+
+  &_filled {
+    color: var(--neutral-2);
+    background-color: var(--primary);
+
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+
+      background-color: var(--neutral-1);
+      opacity: 0;
+      transition: 0.15s;
+    }
+
+    &:hover::after {
+      opacity: 0.15;
+    }
+  }
+}

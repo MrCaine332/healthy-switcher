@@ -1,0 +1,26 @@
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: var(--z-index-upper-layer);
+
+  width: 100%;
+  height: 90px;
+  border-bottom: 2px solid rgba(255,255,255,0.3);
+  background-color: rgba(26,26,26,0.7);
+
+  display: flex;
+  align-items: center;
+
+  transition: 0.15s;
+
+  .headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.headerSmall {
+  height: 70px;
+}

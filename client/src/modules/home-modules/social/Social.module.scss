@@ -1,0 +1,48 @@
+.social {
+  margin-top: 90px;
+
+  .socialList {
+    margin-top: 60px;
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.instagramPhotos {
+  display: grid;
+  grid-template-columns: minmax(auto, 116px) minmax(auto, 117px) minmax(auto, 116px);
+  grid-template-rows: 1fr 1fr;
+  place-items: center;
+
+  img {
+    width: 100%;
+    height: 120px;
+  }
+}
+
+.post {
+  height: 100%;
+  padding: 20px 30px;
+  color: var(--color-text-primary);
+  display: flex;
+  flex-direction: column;
+
+  p {
+    line-height: 30px;
+  }
+
+  .postHeader {
+    opacity: 0.5;
+    margin-bottom: 10px;
+  }
+  .postBody {
+    opacity: 0.75;
+  }
+  .postFooter {
+    margin-top: 10px;
+    color: var(--primary);
+  }
+}

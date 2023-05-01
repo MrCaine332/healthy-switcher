@@ -1,0 +1,31 @@
+.itemWork {
+  width: 256px;
+  height: 206px;
+  color: var(--color-text-primary);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  transition: 0.15s;
+
+  .body {
+    color: var(--color-text-secondary);
+  }
+
+  .divider {
+    transition: 0.15s;
+  }
+
+  &:hover {
+    background-color: var(--primary);
+    color: var(--neutral-1);
+
+    .body {
+      color: var(--neutral-1);
+    }
+
+    .divider {
+      background-color: var(--neutral-1);
+    }
+  }
+}
