@@ -1,6 +1,6 @@
 import axios, {InternalAxiosRequestConfig} from 'axios';
 
-export const API_URL = `https://localhost:7000/api`
+export const API_URL = `https://hw.arkheg.com/api`
 
 const $api = axios.create({
 	// withCredentials: true,
